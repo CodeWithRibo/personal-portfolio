@@ -1,0 +1,39 @@
+header {
+  background: #1B1A55;
+  height: 80px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+    position: fixed;
+    left: 0;
+    right:0;
+    top: 0;
+}
+.container-nav-name {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.container-nav-name h1 {
+  color: white
+}
+#change-color-name {
+  color: #525ad5;
+}
+.navigation {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 4.688rem;
+  font-size: 1.063rem;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}

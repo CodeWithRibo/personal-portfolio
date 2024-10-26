@@ -1,0 +1,27 @@
+footer {
+    padding-top: 99px;
+    position:static;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.footer-container {
+    padding-top: 20px;
+    height: 80px;
+   background: #1B1A55;
+}
+.footer-section ul,p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-section p {
+    color: white;
+    font-size: 13px;
+}
+ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
